@@ -1,0 +1,30 @@
+# Frontend Dependencies & Builds
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+.pnp
+.pnp.js
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+frontend/.env
+backend/.env
+
+# Python & Backend
+**/__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# IDE / OS / Logs
+.DS_Store
+.vscode/
+.idea/
+*.log
+
